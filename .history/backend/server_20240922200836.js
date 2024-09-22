@@ -2,9 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-require("dotenv").config();
+
 const app = express();
-require('dotenv').config();
 const PORT = process.env.PORT || 5009;
 
 // Middleware
@@ -21,7 +20,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/ecommerce', {
 });
 
 // Import Routes
-const productRoutes = require('./Routes/ProductRoutes');
+const productRoutes = require('./routes/productRoutes');
 app.use('/api/products', productRoutes);
 
 app.listen(PORT, () => {
