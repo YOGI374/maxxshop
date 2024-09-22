@@ -18,7 +18,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            await axios.post("http://localhost:8000/", {
+            await axios.post("https://maxx-shop-backend.onrender.com", {
                 email, password
             })
             .then(res => {
