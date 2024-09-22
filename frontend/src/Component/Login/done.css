@@ -1,0 +1,23 @@
+.gif7{
+    width: 400px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.ops{
+    position: absolute;
+    left: 50%;
+    top:40%
+}
+.dn{
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color: azure;
+    width: 100px;
+    left: 67%;
+    top:50%;
+    border-radius: 15px;
+    text-align: center;
+}

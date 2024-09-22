@@ -1,0 +1,122 @@
+.prdlst {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.ulist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lists {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex-basis: calc(33% - 20px);
+  transition: transform 0.3s;
+}
+
+.lists:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.hww {
+  font-size: 1.25em;
+  color: #000000;
+  margin: 0px 140px 2%;
+  position:sticky;
+}
+.pos{
+  font-size: 15px;
+  color: #000000;
+  margin: 60px 0px 2%;
+
+}
+
+
+
+button.addcart {
+  background-color: #035444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button.buynow {
+  background-color: #035444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 60px 20px 2%;
+}
+button.addcart:hover {
+  background-color: #2980b9;
+}
+
+/* Mobile Screen (max-width: 480px) */
+@media (max-width: 480px) {
+  .prdlst {
+    padding: 10px;
+  }
+  .lists {
+    margin: 5px;
+    flex-basis: 100%; /* take up full width on mobile */
+  }
+  .product-image {
+    border-radius: 5px;
+  }
+  button.addcart, button.buynow {
+    padding: 5px 10px;
+    margin: 10px;
+  }
+  .hww {
+    margin: 0px 20px 2%; /* adjust margin for mobile */
+  }
+  .pos {
+    margin: 20px 0px 2%; /* adjust margin for mobile */
+  }
+}
+
+/* PC Screen (min-width: 481px) */
+@media (min-width: 481px) {
+  .prdlst {
+    padding: 20px;
+  }
+  .lists {
+    margin: 10px;
+    flex-basis: calc(33% - 20px); /* take up 33% of width on PC */
+  }
+  .product-image {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  button.addcart, button.buynow {
+    padding: 10px 15px;
+    margin: 60px 20px 2%;
+  }
+  .hww {
+    margin: 0px 140px 2%; /* original margin for PC */
+  }
+  .pos {
+    margin: 60px 0px 2%; /* original margin for PC */
+  }
+}

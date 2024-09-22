@@ -1,0 +1,145 @@
+body {
+    overflow-x: hidden; 
+    background-color: antiquewhite;
+}
+
+.mainh1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+    margin-left: 20px;
+}
+.gif1{
+    position: absolute;
+    width: 200px;
+    left: 30%;
+    bottom: 72%;
+}
+.gif6{
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    bottom: 45%;
+}
+
+ 
+
+.shoe1{
+    width: 600px;
+    height:auto;
+    animation: fadein 3s; 
+}
+.publogin{
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    left: 70%;
+    width: 400px;
+    bottom: 90%;
+    text-align: center;
+    color: azure;
+    border-radius: 5px;
+
+}
+.publogin:hover{
+    background-color: rgb(16, 189, 236);
+    color: black;
+    font-weight: bolder;
+}
+
+h2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35%; 
+    font-size: 20px;
+    margin-top:15%;
+    padding-right: 6%;
+    padding-left: 10%;
+}
+h4{
+    position: absolute;
+    left: 10%;
+}
+.mark1 {
+    background-color: skyblue;
+  }
+
+.boot1{
+    width: 600px;
+    float: right;
+    margin-top: 40%;
+    animation: fadein 3s; 
+    animation-delay: 3s;
+    margin-right: 30%;
+    position: absolute;
+}
+
+h3{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:50%;
+    font-size: 20px;
+    margin-top:10%;
+    padding-left: 10px;
+}
+h4{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 60%;
+    margin-right: 10%;
+    bottom: 50%;
+    
+}
+
+.basketball1{
+    width:800px;
+    position: absolute;
+    padding: 10px;
+    margin-top:20%;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .shoe1, .boot1 {
+        width: 400px;
+    }
+    .basketball1 {
+        width: 600px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2, h3 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .shoe1, .boot1 {
+        width: 300px;
+    }
+    .basketball1 {
+        width: 400px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2, h3 {
+        font-size: 16px;
+    }
+}
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .shoe1, .boot1 {
+        width: 200px;
+    }
+    .basketball1 {
+        width: 300px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2, h3 {
+        font-size: 14px;
+    }
+}

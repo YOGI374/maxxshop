@@ -1,0 +1,89 @@
+.suph1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  position: absolute;
+  left: 36%;
+  bottom: 80%;
+}
+.suph2{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  position: absolute;
+ left: -3%;
+  bottom: 70%;
+}
+.gif2{
+  width: 300px;
+  left: 10%;
+  position: absolute;
+  bottom: -30px;
+}
+.gif3{
+  width: 300px;
+  left: 40%;
+  position: absolute;
+  bottom: -30px;}
+.gif4{
+  width: 300px;
+  left:70%;
+  position: absolute;
+  bottom: -30px;}
+
+.contat-form {
+  margin: 20px;
+  margin-top: 10%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sup3 {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sup3:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.submt-button {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.submt-button:hover {
+  background-color: #27cced;
+  color: #000000;
+}
+
+.contact {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h6, .contact h7, .contact h8, .contact h9 {
+ 
+  font-size: 16px;
+  color: #666;
+display: grid;
+align-items: center;
+margin-left: 45%;
+}

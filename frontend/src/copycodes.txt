@@ -1,0 +1,34 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
+import ProductList from './Component/ProductList';
+import AdminAddProduct from './Component/AdminAddProduct';
+import About from './Component/About/About'
+import Home from './Component/Home/Home';
+import Contact from './Component/Contact/Contact';
+import Navbar from  './Component/Navbar/Navbar';
+import './App.css';
+
+
+const App = () => {
+  return (
+    <div>
+      <div>
+      </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/products" element={<ProductList />} />
+            <Route path="/admin" element={<AdminAddProduct />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/home" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
+    </div>
+  );
+};
+
+export default App;
+
