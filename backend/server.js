@@ -20,7 +20,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/ecommerce', {
 });
 
 // Import Routes
-const productRoutes = require('./routes/productRoutes');
+const productRoutes = require('./Routes/ProductRoutes');
 app.use('/api/products', productRoutes);
 
 app.listen(PORT, () => {
