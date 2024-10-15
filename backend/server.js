@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://127.0.0.1:27017/ecommerce', {
+mongoose.connect('https://my-maxx-shop-backend.onrender.com', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
