@@ -11,7 +11,7 @@ const ProductList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('https://my-maxx-shop-backend.onrender.com')
+    axios.get('mongodb://127.0.0.1:27017/ecommerce')
     .then(response => {
       setProducts(response.data);
     })
