@@ -10,7 +10,7 @@ const AdminAddProduct = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://my-maxx-shop-backend.onrender.com', {
+    axios.post('mongodb://127.0.0.1:27017/ecommerce', {
       name,
       price,
       description,
